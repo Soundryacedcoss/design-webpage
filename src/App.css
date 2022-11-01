@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+.App{
+  background-color: #7ecad0;
+ padding-left: 3%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: white;
+  /* padding: 2%; */
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li:hover{
+  background-color: #fd672d;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li{
+  padding: 3%;
+}
+.navbar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #7ecad0;
+}
+.links{
+  /* display: flex; */
+  width: 70%;
+  margin-left: 20%;
+  padding: 3%;
+}
+.logo{
+  margin-left: 4%;
+  padding: 4%;
+}
+.logobuttonDiv{
+  padding-top: 3%;
+}
+.flex{
+  display: flex;
+  column-gap: 1%;
+}
+ul{
+  list-style: none;
+}
+.containt{
+  width: 40%;
+  margin-left: 2%;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.Signup{
+  width: 40%;
+  margin-left: 3%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+input[type=text]{
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+input[type=number]{
+  width: 79%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ 
+}
+textarea{
+  width: 86%;
+}
+.startedButton {
+  padding: 14px 60px;
+  background-color: #fb7e2a;
+  border-style: none;
+}
+@media screen and (max-width: 750px) {
+  div .flex {
+   display: inline;
+   background-color: #7ecad0;
+   
   }
-  to {
-    transform: rotate(360deg);
+}
+@media screen and (max-width: 750px) {
+  div .navbar {
+   display: inline;
+   background-color: #7ecad0;
+   
   }
+}
+.page{
+  background-color: #7ecad0;
+  padding: 5px;
+}
+.startedButtonDiv{
+  width: auto;
+}
+.logobutton{
+  border-style: none;
+  background-color: #7ecad0;
+}
+.logobutton:hover{
+  cursor: pointer;
+}
+.logo{
+  padding-right: 0%;
+  margin-right: 0%;
 }
