@@ -48,43 +48,49 @@ ul{
 }
 input[type=text]{
   width: 80%;
-  padding: 12px;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  
+  margin-bottom: 3%;
 }
 input[type=number]{
-  width: 79%;
-  padding: 15px;
-  border: 1px solid #ccc;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-right: 100%;
+  width: 90%;
+  margin-bottom: 3%;
+   border: 1px solid #ccc;
   border-radius: 4px;
- 
 }
+
 textarea{
-  width: 86%;
+  width: 108%;
+  padding-right: 85%;
+  padding-bottom: 5%;
 }
 .startedButton {
   padding: 14px 60px;
   background-color: #fb7e2a;
   border-style: none;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1015px) {
   div .flex {
    display: inline;
    background-color: #7ecad0;
-   
   }
 }
 @media screen and (max-width: 750px) {
   div .navbar {
    display: inline;
    background-color: #7ecad0;
+   /* width: 2%; */
    
   }
 }
 .page{
   background-color: #7ecad0;
   padding: 5px;
+  padding-bottom: 5%;
 }
 .startedButtonDiv{
   width: auto;
